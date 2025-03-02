@@ -17,3 +17,6 @@ local.properties
 /ios
 /linux
 
+# Firebase configuration files with sensitive information
+lib/firebase_options.dart
+
