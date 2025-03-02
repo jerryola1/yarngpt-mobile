@@ -19,7 +19,7 @@ publish_to: 'none' # Remove this line if you wish to publish to pub.dev
 version: 1.0.0+1
 
 environment:
-  sdk: ^3.7.0
+  sdk: '>=3.0.0 <4.0.0'
 
 # Dependencies specify other packages that your package needs in order to work.
 # To automatically upgrade your package dependencies to the latest versions
@@ -33,9 +33,20 @@ dependencies:
 
   # The following adds the Cupertino Icons font to your application.
   # Use with the CupertinoIcons class for iOS style icons.
-  cupertino_icons: ^1.0.8
+  cupertino_icons: ^1.0.2
+  audioplayers: ^5.2.1
+  shared_preferences: ^2.2.2
+  path_provider: ^2.1.2
+  provider: ^6.0.5
+  lottie: ^3.0.0
+  http: ^1.1.0
+  uuid: ^4.2.1
+  firebase_core: ^3.12.1
+  firebase_auth: ^5.5.1
+  cloud_firestore: ^5.6.5
 
 dev_dependencies:
+  flutter_launcher_icons: ^0.14.3
   flutter_test:
     sdk: flutter
 
@@ -44,19 +55,42 @@ dev_dependencies:
   # activated in the `analysis_options.yaml` file located at the root of your
   # package. See that file for information about deactivating specific lint
   # rules and activating additional ones.
-  flutter_lints: ^5.0.0
+  flutter_lints: ^2.0.0
 
 # For information on the generic Dart part of this file, see the
 # following page: https://dart.dev/tools/pub/pubspec
 
 # The following section is specific to Flutter packages.
 flutter:
+  uses-material-design: true
+  
+  assets:
+    - assets/logo.png
+    - assets/icon.png
+    - assets/animations/
+    - assets/images/teddy.png
+    - assets/images/lady.png
+    - assets/images/guy.png
+
+  fonts:
+    - family: Palanquin
+      fonts:
+        - asset: assets/fonts/Palanquin-Regular.ttf
+        - asset: assets/fonts/Palanquin-Light.ttf
+          weight: 300
+        - asset: assets/fonts/Palanquin-Medium.ttf
+          weight: 500
+        - asset: assets/fonts/Palanquin-Bold.ttf
+          weight: 700
+
+flutter_icons:
+  android: true
+  ios: true
+  image_path: "assets/icon.png"
 
   # The following line ensures that the Material Icons font is
   # included with your application, so that you can use the icons in
   # the material Icons class.
-  uses-material-design: true
-
   # To add assets to your application, add an assets section, like this:
   # assets:
   #   - images/a_dot_burr.jpeg

@@ -1,0 +1,69 @@
+{
+  "project_info": {
+    "project_number": "573902726340",
+    "firebase_url": "https://thesun-news.firebaseio.com",
+    "project_id": "thesun-news",
+    "storage_bucket": "thesun-news.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:573902726340:android:0c23b52644ede872",
+        "android_client_info": {
+          "package_name": "com.thesun.thesunnews"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "573902726340-4ujnpoa482hh7bff0v03hlllts5v0k50.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBmL1q3uehmFjbZ5NLlwNcmbUvM4tAjKr0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "573902726340-4ujnpoa482hh7bff0v03hlllts5v0k50.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:573902726340:android:2caa0791cd430635cc9591",
+        "android_client_info": {
+          "package_name": "com.yarngpt.yarngpt"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "573902726340-4ujnpoa482hh7bff0v03hlllts5v0k50.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBmL1q3uehmFjbZ5NLlwNcmbUvM4tAjKr0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "573902726340-4ujnpoa482hh7bff0v03hlllts5v0k50.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
